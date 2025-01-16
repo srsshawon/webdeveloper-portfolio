@@ -103,13 +103,16 @@ main{
     max-width: 969px;
     margin: 0 auto;
 }
+main section{
+    margin: 110px 0px;
+}
 
 /* about styles */
 .about{
     border-radius: 8px;
     padding: 110px 132px;
     text-align: center;
-    margin-top: 110px;
+    
 }
 
 .about-items{
@@ -119,4 +122,28 @@ main{
 
 .item-description{
     font-weight: bold;
+}
+
+/* skills section */
+
+.text-align1{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 110px;  
+}
+.text-align2{
+    text-align: center;
+    margin-bottom: 42px;  
+    font-size: 15px;
+    
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
